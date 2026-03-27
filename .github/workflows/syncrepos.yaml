@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  LECTURE_REPO: USER/REPO  ##
-  LECTURE_BRANCH: BRANCH   ##
+  LECTURE_REPO: Programmiermethoden-CampusMinden/Prog2-Lecture
+  LECTURE_BRANCH: _s26
 
 jobs:
   sync_lecture:
