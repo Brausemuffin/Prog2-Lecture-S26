@@ -35,8 +35,11 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Build-Systeme: Gradle](https://youtu.be/aVtDkFpwd_E)
-> -   [Demo Gradle](https://youtu.be/OhQRGaNO4iA)
+> Vorlesung \[[YT](https://youtu.be/z_UHK4Iiz1A)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-gradle/bd30dd1963ca16a513c5d2b55359b125)\]
+>
+> Demo \[[YT](https://youtu.be/umF5SDOK9pw)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-gradle-demo-build-tool-gradle/afc60e964c7c9baf491974851c49271c)\]
 >
 > </details>
 
@@ -791,4 +794,4 @@ eine gute Einstiegshilfe über den hier vorgestellten Ausblick hinaus.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 118c81e 2026-04-18 gradle: fix typo<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 3abad24 2026-04-21 gradle: rework all screencasts<br></sub></sup></p></blockquote>

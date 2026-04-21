@@ -269,17 +269,31 @@ for a detailed list of contributing projects.
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Git Intro](https://youtu.be/Ac3-pZhVf_c)
-> -   [VL Git Basics](https://youtu.be/GxJI8nmZVE8)
-> -   [Demo Config](https://youtu.be/0noYvZvQhic)
-> -   [Demo Repo](https://youtu.be/ZaWEwIpER-U)
-> -   [Demo New Files](https://youtu.be/ITF8wj8GluM)
-> -   [Demo Arbeitsablauf: Datei ändern - stagen -
->     committen](https://youtu.be/SFIVudlVUhg)
-> -   [Demo Amend](https://youtu.be/0uczjI7wsrQ)
-> -   [Demo Log](https://youtu.be/vmb-PZ1Efkg)
-> -   [Demo Diff](https://youtu.be/XB8lfGuU6ZI)
-> -   [Demo Tag](https://youtu.be/F1W0RqrxCho)
+> Vorlesung \[[YT](https://youtu.be/u9waO_WrHMc)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics/34a91e0ed6f50d799b0316568f6e21d6)\]
+>
+> Demos:
+>
+> -   Konfiguration \[[YT](https://youtu.be/3AIkaVJXEm0)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-config/a905d2081f5a49a0a5f4fff49a26a21e)\]
+> -   Erstellung Repo \[[YT](https://youtu.be/TfnaZpoxM08)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-repo/f921295f508b433c59dac34ae93a9fa1)\]
+> -   Dateien hinzufügen \[[YT](https://youtu.be/w5pZfUZAGiQ)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-new-files/c6f9f44d048490996679b2d8d62578e9)\]
+> -   Arbeitsablauf: Datei ändern - stagen - committen
+>     \[[YT](https://youtu.be/QbOhgsmrA7M)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-arbeitsablauf/cedd3b801f51cf369b4f33a91548602b)\]
+> -   Hinzufügen zu Commits (Amend)
+>     \[[YT](https://youtu.be/N8jHLbN9oZE)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-amend/da3e40922f28383a9f31e7665aa3a6aa)\]
+> -   Anschauen von Änderungen (Log)
+>     \[[YT](https://youtu.be/EaEIPb9341s)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-log/f7f3ac504da920235a903352ebcd7d9a)\]
+> -   Anschauen von Unterschieden (Diff)
+>     \[[YT](https://youtu.be/_sTgpdKkALE)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-diff/3044e0740c7e61bacdc8680fe7e93276)\]
+> -   Umgang mit Tags \[[YT](https://youtu.be/ZElXK-uQsSs)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-git1-basics-demo-tag/c656b1bc4b06ccadab66857679097164)\]
 >
 > [Introduction to Git with Scott Chacon of GitHub (erster Teil, bis ca.
 > Minute 45)](https://youtu.be/ZDR433b0HJY)
@@ -2005,8 +2019,11 @@ gibt es "*Merge-Requests*" (MR). Bei Github gibt es "*Pull-Requests*"
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Build-Systeme: Gradle](https://youtu.be/aVtDkFpwd_E)
-> -   [Demo Gradle](https://youtu.be/OhQRGaNO4iA)
+> Vorlesung \[[YT](https://youtu.be/z_UHK4Iiz1A)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-gradle/bd30dd1963ca16a513c5d2b55359b125)\]
+>
+> Demo \[[YT](https://youtu.be/umF5SDOK9pw)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-gradle-demo-build-tool-gradle/afc60e964c7c9baf491974851c49271c)\]
 >
 > </details>
 
@@ -2786,7 +2803,8 @@ eine gute Einstiegshilfe über den hier vorgestellten Ausblick hinaus.
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> TODO
+> Vorlesung \[[YT](https://youtu.be/db3SGcxJxT8)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-packages/17abeff70beaf81a631314cb0207613f)\]
 >
 > </details>
 
@@ -16586,18 +16604,18 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   "*Three strikes...*": ([Fowler 2011](#ref-Fowler2011), p. 58)
 -   "*Any fool...*": ([Fowler 2011](#ref-Fowler2011), p. 15)
 -   ["356:
     Refactoring"](http://altlasten.lutz.donnerhacke.de/mitarb/lutz/usenet/Fachbegriffe.der.Informatik.html#356)
     by [Andreas Bogk](mailto:andreas@andreas.org) on Lutz Donnerhacke:
     "Fachbegriffe der Informatik"
+-   "*Three strikes...*": ([Fowler 2011](#ref-Fowler2011), p. 58)
 -   ["A Note About Git Commit
     Messages"](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
     by [Tim Pope](https://tpo.pe/) on tbaggery.com
 -   "*Refactoring*": ([Fowler 2011](#ref-Fowler2011), p. 53)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 5f4ee56 2026-04-18 tooling: add inverted images (all lessons)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0c87903 2026-04-21 packages: add new screencasts<br></sub></sup></p></blockquote>
 
 [^1]: Naja, ein kläglicher Versuch. Namen sind eines der schwierigen
     Probleme in der Informatik.

@@ -27,7 +27,8 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> TODO
+> Vorlesung \[[YT](https://youtu.be/db3SGcxJxT8)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-packages/17abeff70beaf81a631314cb0207613f)\]
 >
 > </details>
 
@@ -373,4 +374,4 @@ schlecht als Bibliothek verwenden oder in andere Projekte integrieren.**
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a79830f 2026-04-18 add new session packages<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 0c87903 2026-04-21 packages: add new screencasts<br></sub></sup></p></blockquote>
