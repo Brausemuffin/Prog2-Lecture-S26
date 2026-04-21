@@ -29,6 +29,25 @@
 > Mit `git rebase` kann die Wurzel eines Branches an eine andere Stelle
 > verschoben werden. Dies wird später bei Workflows eine Rolle spielen.
 >
+> Beim Klonen eines Repositories mit `git clone <url>` wird das fremde
+> Repo mit dem Namen `origin` im lokalen Repo festgehalten. Dieser Name
+> wird auch als Präfix für die Branches in diesem Repo genutzt, d.h. die
+> Branches im Remote-Repo tauchen als `origin/<branch>` im lokalen Repo
+> auf. Diese Remote-Branches kann man nicht direkt bearbeiten, sondern
+> man muss diese Remote-Branches in einem lokalen Branch auschecken und
+> dann darin weiterarbeiten. Es können beliebig viele weitere Remotes
+> dem eigenen Repository hinzugefügt werden.
+>
+> Änderungen aus einem Remote-Repo können mit `git fetch <remote>` in
+> das lokale Repo geholt werden. Dies aktualisiert **nur** die
+> Remote-Branches `<remote>/<branch>`! Die Änderungen können
+> anschließend mit `git merge <remote>/<branch>` in den aktuell in der
+> Workingcopy ausgecheckten Branch gemergt werden. (*Anmerkung*: Wenn
+> mehrere Personen an einem Branch arbeiten, will man die eigenen
+> Arbeiten in dem Branch vermutlich eher auf den aktuellen Stand des
+> Remote **rebasen** statt mergen!) Eigene Änderungen können mit
+> `git push <remote> <branch>` in das Remote-Repo geschoben werden.
+>
 > </details>
 
 > [!TIP]
@@ -37,10 +56,21 @@
 > <summary><strong>🎦 Videos</strong></summary>
 >
 > -   [VL Git Branches](https://youtu.be/WXPJOsgeR10)
+>
 > -   [Demo Anlegen und Mergen von
 >     Branches](https://youtu.be/B8sesK1GyiE)
+>
 > -   [Demo Auflösen von Merge-Konflikten](https://youtu.be/iEr9i8auF7c)
+>
 > -   [Demo HEAD](https://youtu.be/U4gd0FBBqZQ)
+>
+> -   [VL Git Remotes](https://youtu.be/_uhEseblDYU)
+>
+> -   [Demo Fetch, Pull und Push](https://youtu.be/moqywsxtEy8)
+>
+> -   [Demo Tracking-Branches](https://youtu.be/0RoqM5Wmxfc)
+>
+> -   [Demo Verknüpfen weiterer Remotes](https://youtu.be/jL4AvSsjjKg)
 >
 > [Introduction to Git with Scott Chacon of GitHub (zweiter Teil, ab ca.
 > Minute 45)](https://youtu.be/ZDR433b0HJY)
@@ -94,12 +124,24 @@ Commit genutzt werden).
 Nach Anlegen des neuen Branches zeigen beide Pointer auf den selben
 Commit.
 
+`git switch <branchname>` bzw. `git checkout <branchname>`holt den
+aktuellen Stand des jeweiligen Branches in die Workingcopy. Man kann
+also jederzeit in der Workingcopy die Branches wechseln und entsprechend
+weiterarbeiten.
+
 *Anmerkung*: In neueren Git-Versionen wurde der Befehl "`switch`"
 eingeführt, mit dem Sie in der Workingcopy auf einen anderen Branch
 wechseln können. Der bisherige Befehl "`checkout`" funktioniert aber
-weiterhin.
+weiterhin. Während der neue `git switch`-Befehl allerdings nur Branches
+umschalten kann, funktioniert `git checkout` sowohl mit Branchnamen und
+Dateinamen - damit kann man also auch eine andere Version einer Datei in
+der Workingcopy "auschecken". Falls gleiche Branch- und Dateinamen
+existieren, muss man für das Auschecken einer Datei noch "`--`" nutzen:
+`git checkout -- <dateiname>`.
 
-## Arbeiten im Entwicklungszweig ...
+...
+
+Commit(s) auf `wuppie` ...
 
               D  wuppie
              /
@@ -116,10 +158,6 @@ weiterhin.
 
 ## Problem: Fehler im ausgelieferten Produkt
 
-              D  wuppie
-             /
-    A---B---C  master
-
 Fix für `master` nötig:
 
 1.  `git checkout master`
@@ -128,11 +166,11 @@ Fix für `master` nötig:
 
 Das führt zu dieser Situation:
 
-              D  wuppie
-             /
-    A---B---C  master
-             \
-              E  fix
+              D  wuppie                                D  wuppie
+             /                                        /
+    A---B---C  master              =>        A---B---C  master
+                                                      \
+                                                       E  fix
 
 `git checkout <branchname>` holt den aktuellen Stand des jeweiligen
 Branches in die Workingcopy. (Das geht in neueren Git-Versionen auch mit
@@ -144,21 +182,17 @@ auch Branches auf der Basis von `wuppie` anlegen ...
 
 ## Fix ist stabil: Integration in *master*
 
-              D  wuppie
-             /
-    A---B---C  master
-             \
-              E  fix
-
 1.  `git checkout master`
 2.  `git merge fix` =\> **fast forward** von `master`
 3.  `git branch -d fix`
 
 Der letzte Schritt entfernt den Branch `fix`.
 
-              D  wuppie
-             /
-    A---B---C---E  master
+              D  wuppie                                D  wuppie
+             /                                        /
+    A---B---C  master              =>        A---B---C---E  master
+             \
+              E  fix
 
 -   Allgemein: `git merge <branchname>` führt die Änderungen im
     angegebenen Branch `<branchname>` in den aktuell in der Workingcopy
@@ -186,35 +220,17 @@ Der letzte Schritt entfernt den Branch `fix`.
     einfach "weitergeschaltet" werden. Ein Merge-Commit ist in diesem
     Fall nicht notwendig und wird auch nicht angelegt.
 
-## Feature weiter entwickeln ...
+## Feature weiter entwickeln und Integration in *master*
 
-              D---F  wuppie
-             /
-    A---B---C---E  master
+1.  `git checkout master`
+2.  `git merge wuppie` =\> Kein *fast forward* möglich: Git sucht nach
+    gemeinsamen Vorgänger + neuer Commit
 
-1.  `git switch wuppie`
-2.  Weitere Änderungen im Branch `wuppie` ...
-
-`git switch <branchname>` holt den aktuellen Stand des jeweiligen
-Branches in die Workingcopy. Man kann also jederzeit in der Workingcopy
-die Branches wechseln und entsprechend weiterarbeiten.
-
-*Hinweis*: Während der neue `git switch`-Befehl nur Branches umschalten
-kann, funktioniert `git checkout` sowohl mit Branchnamen und
-Dateinamen - damit kann man also auch eine andere Version einer Datei in
-der Workingcopy "auschecken". Falls gleiche Branch- und Dateinamen
-existieren, muss man für das Auschecken einer Datei noch "`--`" nutzen:
-`git checkout -- <dateiname>`.
-
-## Feature ist stabil: Integration in *master*
+<!-- -->
 
               D---F  wuppie                            D---F  wuppie
              /                     =>                 /     \
     A---B---C---E  master                    A---B---C---E---G  master
-
-1.  `git checkout master`
-2.  `git merge wuppie` =\> Kein *fast forward* möglich: Git sucht nach
-    gemeinsamen Vorgänger
 
 Hier im Beispiel ist der Standardfall beim Mergen dargestellt: Die
 beiden Branches liegen nicht in einer direkten Kette von Commits, d.h.
@@ -246,7 +262,7 @@ ein, d.h. der entsprechende Merge-Commit ist in `A`!
 
 ## Konflikte beim Mergen
 
-(Parallele) Änderungen an selber Stelle =\> Merge-Konflikte
+Merksatz: (Parallele) Änderungen an selber Stelle =\> Merge-Konflikte
 
     $ git merge wuppie
     Auto-merging hero.java
@@ -352,6 +368,217 @@ Man beachte aber die Änderung der Commit-IDs von `wuppie`: Aus `D` wird
         Aufräum-Aktionen, so dass die Chance gut steht, dass die
         "kopflosen" Commits irgendwann tatsächlich verschwinden.
 
+## Erinnerung: Clonen kann sich lohnen =\> Remote-Branches
+
+    https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture
+
+    ---C---D---E  master
+
+=\>
+`git clone https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture`
+
+    ./Prog2-Lecture/  (lokaler Rechner)
+
+    ---C---D---E  master
+               ^origin/master
+
+Erinnerung: Git-Repository mit der URL `<URL-Repo>` in lokalen Ordner
+`<directory>` auschecken: `git clone <URL-Repo> [<directory>]`.
+
+Für die URL sind verschiedene Protokolle möglich, beispielsweise:
+
+-   "`file://`" für über das Dateisystem erreichbare Repositories (ohne
+    Server)
+-   "`https://`" für Repo auf einem Server: Authentifikation mit
+    Username und Passwort (!)
+-   "`git@`" für Repo auf einem Server: Authentifikation mit **SSH-Key**
+    (diese Variante wird im Praktikum im Zusammenspiel mit dem
+    Gitlab-Server im SW-Labor verwendet)
+
+Neue Beobachtung: Die Workingcopy ist automatisch über den Namen
+`origin` mit dem Remote-Repo (gern auch "Remote" oder "Upstream"
+genannt) auf dem Server verbunden. Der lokale Branch `master` ist
+automatisch mit dem Remote-Branch `origin/master` verbunden, der den
+Stand des `master`-Branches auf dem Server spiegelt.
+
+Mit `git remote add <name> <url>` kann man beliebig viele weitere
+Remotes hinzufügen. Das Arbeiten mit den weiteren Remotes unterscheidet
+sich nicht von dem hier gezeigten Vorgehen mit dem Default-Remote
+`origin`.
+
+## Eigener und entfernter *master* entwickeln sich weiter ...
+
+    https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture
+
+    ---C---D---E---F---G  master
+
+    ./Prog2-Lecture/  (lokaler Rechner)
+
+    ---C---D---E---H  master
+               ^origin/master
+
+Nach dem Auschecken liegen (in diesem Beispiel) drei `master`-Branches
+vor:
+
+1.  Der `master` auf dem Server,
+2.  der lokale `master`, und
+3.  die lokale Referenz auf den `master`-Branch auf dem Server:
+    `origin/master`.
+
+Der lokale `master` ist ein normaler Branch und kann durch Commits
+verändert werden.
+
+Der `master` auf dem Server kann sich ebenfalls ändern, beispielsweise
+weil jemand anderes seine lokalen Änderungen mit dem Server abgeglichen
+hat (`git push`, s.u.).
+
+Der Branch `origin/master` lässt sich nicht direkt verändern! Das ist
+lediglich eine lokale Referenz auf den `master`-Branch auf dem Server
+und zeigt an, welchen Stand man bei der letzten Synchronisierung hatte.
+D.h. erst mit dem nächsten Abgleich wird sich dieser Branch ändern
+(sofern sich der entsprechende Branch auf dem Server verändert hat).
+
+*Anmerkung*: Dies gilt analog für alle anderen Branches. Allerdings wird
+nur der `origin/master` beim Clonen automatisch als lokaler Branch
+ausgecheckt.
+
+Zur Abbildung: Während man lokal arbeitet (Commit `H` auf dem lokalen
+`master`), kann es passieren, dass sich auch das remote Repo ändert. Im
+Beispiel wurden dort die beiden Commits `F` und `G` angelegt (durch
+`git push`, s.u.).
+
+Wichtig: Da in der Zwischenzeit das lokale Repo nicht mit dem Server
+abgeglichen wurde, zeigt der remote Branch `origin/master` immer noch
+auf den Commit `E`!
+
+## Änderungen vom Remote holen und Branches lokal zusammenführen
+
+    https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture
+
+    ---C---D---E---F---G  master
+
+=\> `git fetch origin`
+
+    ./Prog2-Lecture/  (lokaler Rechner)
+
+    ---C---D---E---H  master
+                \
+                 F---G  origin/master
+
+### Änderungen auf dem Server mit dem eigenen Repo abgleichen
+
+Mit `git fetch origin` alle Änderungen holen
+
+-   Alle remote Branches werden aktualisiert und entsprechen den
+    jeweiligen Branches auf dem Server: Im Beispiel zeigt jetzt
+    `origin/master` ebenso wie der `master` auf dem Server auf den
+    Commit `G`.
+-   Neue Branches auf dem Server werden ebenfalls "geholt", d.h. sie
+    liegen nach dem Fetch als entsprechende remote Branches vor
+-   Auf dem Server gelöschte Branches werden nicht automatisch lokal
+    gelöscht; dies kann man mit `git fetch --prune origin` automatisch
+    erreichen
+
+*Wichtig*: Es werden nur die remote Branches aktualisiert, nicht die
+lokalen Branches!
+
+### *master*-Branch nach "git fetch origin" zusammenführen
+
+    https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture
+
+    ---C---D---E---F---G  master
+
+
+
+    ./Prog2-Lecture/  (lokaler Rechner)
+
+    ---C---D---E---H---I  master
+                \     /
+                 F---G  origin/master
+
+1.  Mit `git checkout master` Workingcopy auf eigenen `master` umstellen
+2.  Mit `git merge origin/master` Änderungen am `origin/master` in
+    eigenen `master` mergen
+
+*Anmerkung*: Schritt (2) kann man auch direkt per
+`git pull origin master` erledigen ... Ein `pull` fasst `fetch` und
+`merge` zusammen.
+
+*Anmerkung* Statt dem `merge` in Schritt (2) kann man auch den lokalen
+`master` auf den aktualisierten `origin/master` rebasen und vermeidet
+damit die "Raute". Der `pull` kann mit der Option "`--rebase`" auf
+"rebase" umgestellt werden (per Default wird bei `pull` ein "merge"
+ausgeführt).
+
+### *master*-Branch ins Remote pushen
+
+Mit `git push origin master` eigene Änderungen ins Remote-Repo pushen
+
+    https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture
+
+    ---C---D---E---H---I  master
+                \     /
+                 F---G
+
+
+
+    ./Prog2-Lecture/  (lokaler Rechner)
+
+    ---C---D---E---H---I  master
+                \     /^origin/master
+                 F---G
+
+### Achtung: Auf dem Server ist nur ein *fast forward merge* möglich
+
+Sie können Ihre Änderungen in Ihrem lokalen `master` auch direkt in das
+remote Repo pushen, solange auf dem Server ein **fast forward merge**
+möglich ist.
+
+Wenn aber (wie in der Abbildung) der lokale und der remote `master`
+divergieren, müssen Sie den Merge wie beschrieben lokal durchführen
+(`fetch`/`merge` oder `pull`) und das Ergebnis wieder in das remote Repo
+pushen (dann ist ja wieder ein *fast forward merge* möglich, es sei
+denn, jemand hat den remote `master` in der Zwischenzeit weiter
+geschoben - dann muss die Aktualisierung erneut durchgeführt werden).
+
+<p align="right">Beispiel für Zusammenführen (merge und push), Anmerkung zu fast forward merge</p>
+
+## Branches und Remotes
+
+Das Arbeiten mit Remote-Branches ist nicht nur bereits beim Klonen
+vorhandene Branches beschränkt.
+
+1.  Neue lokale Branches pushen mit `git push <remote> <branch>`.
+2.  Neue remote Branches fetchen:
+    -   `git fetch <remote>` holt (auch) alle neuen (Remote-) Branches
+    -   Lokale Änderungen an Remote-Branches nicht möglich! =\>
+        **Remote-Branch in lokalen Branch auschecken**
+
+### Anmerkung: *push* geht nur, wenn
+
+1.  Ziel ein "bare"-Repository ist, **und**
+2.  keine Konflikte entstehen
+
+=\> im remote Repo **nur** "fast forward"-Merge möglich
+
+=\> bei Konflikten erst `fetch` und `merge`, danach `push`
+
+**Anmerkung**: Ein "bare"-Repository enthält keine Workingcopy, sondern
+nur das Repo an sich. Die ist bei Repos, die Sie auf einem Server wie
+Gitlab oder Github anlegen, automatisch der Fall. Sie können aber auch
+lokal ein solches "bare"-Repo anlegen, indem Sie beim Initialisieren den
+Schalter `--bare` mitgeben: `git init --bare` ...
+
+### Beispiel
+
+    git fetch origin           # alle Änderungen vom Server holen
+    git checkout master        # auf lokalen Master umschalten
+    git merge origin/master    # lokalen Master aktualisieren
+
+    ... # Herumspielen am lokalen Master
+
+    git push origin master     # lokalen Master auf Server schicken
+
 ## Wrap-Up
 
 -   Anlegen von Branches mit `git branch`
@@ -359,15 +586,20 @@ Man beachte aber die Änderung der Commit-IDs von `wuppie`: Aus `D` wird
     `git switch`
 -   Mergen von Branches und Auflösen von Konflikten: `git merge`
 -   Verschieben von Branches mit `git rebase`
+-   Änderungen vom Server holen: `git fetch <remote>`
+-   Lokalen Branch auffrischen: `git merge <remote>/<branch>`
+-   Eigene Änderungen hochladen: `git push <remote> <branch>`
 
 > [!TIP]
 >
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Chacon und Straub ([2014, Kap. 3](#ref-Chacon2014))
-> -   Atlassian Pty Ltd ([2026](#ref-AtlassianGit))
-> -   Github Inc. ([2024](#ref-GitCheatSheet))
+> Sie finden den Inhalt dieser Sitzung im Chacon und Straub ([2014, Kap.
+> 3](#ref-Chacon2014)).
+>
+> Zusätzlich gibt es viele hilfreiche Tutorials wie beispielsweise die
+> [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials).
 >
 > </details>
 
@@ -379,6 +611,11 @@ Man beachte aber die Änderung der Commit-IDs von `wuppie`: Aus `D` wird
 > -   k3: Ich kann neue Branches anlegen
 > -   k3: Ich kann Branches mergen und mögliche Konflikte auflösen
 > -   k3: Ich kann Branches rebasen
+> -   k3: Ich kann Änderungen vom fremden Repo holen
+> -   k2: Ich kann den Unterschied zwischen lokalen Branches und
+>     entfernten Branches
+> -   k3: Ich kann meine lokale Branches aktualisieren
+> -   k3: Ich kann lokale Änderungen ins fremde Repo pushen erklären
 >
 > </details>
 
@@ -429,6 +666,19 @@ Man beachte aber die Änderung der Commit-IDs von `wuppie`: Aus `D` wird
 >     sondern dass die Änderungen in $D$ und $F$ im `master` als eine
 >     lineare Folge von Commits erscheinen?
 >
+> **Synchronisierung mit Remote-Repos**
+>
+> Sie haben ein Repo von github.com geklont. Beide Repos, das Original
+> auf dem Server als auch Ihre lokale Kopie, haben sich danach
+> unabhängig voneinander weiter entwickelt (siehe Skizze).
+>
+> <p align="center"><img src="https://github.com/Programmiermethoden-CampusMinden/Prog2-Lecture/blob/master/lecture/git/images/remote-branches-2.png?raw=true" width="60%" /></p>
+>
+> Wie können Sie Ihre Änderung im lokalen Repo auf den Server pushen?
+> Analysieren Sie die Situation und erklären Sie zwei verschiedene
+> Lösungsansätze und geben Sie jeweils die entsprechenden Git-Befehle
+> an.
+>
 > **Interaktive Git-Tutorials**: Schaffen Sie die Rätsel?
 >
 > -   [Learn Git Branching](https://learngitbranching.js.org/)
@@ -448,24 +698,10 @@ Man beachte aber die Änderung der Commit-IDs von `wuppie`: Aus `D` wird
 >
 > <div id="refs" class="references csl-bib-body hanging-indent">
 >
-> <div id="ref-AtlassianGit" class="csl-entry">
->
-> Atlassian Pty Ltd. 2026. „Git Tutorials".
-> <https://www.atlassian.com/git/tutorials>.
->
-> </div>
->
 > <div id="ref-Chacon2014" class="csl-entry">
 >
 > Chacon, S., und B. Straub. 2014. *Pro Git*. 2. Aufl. Apress.
 > <https://git-scm.com/book/en/v2>.
->
-> </div>
->
-> <div id="ref-GitCheatSheet" class="csl-entry">
->
-> Github Inc. 2024. „GitHub Training Kit".
-> <https://training.github.com/>.
 >
 > </div>
 >
@@ -479,4 +715,4 @@ Man beachte aber die Änderung der Commit-IDs von `wuppie`: Aus `D` wird
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 3efc893 2026-04-18 git: remove linking to old lesson<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a179cba 2026-04-21 git2: fix rendering issues<br></sub></sup></p></blockquote>

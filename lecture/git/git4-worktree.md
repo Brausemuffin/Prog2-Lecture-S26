@@ -80,7 +80,7 @@ Dateisystem)**
 
 ## How to use Git Worktree
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Programmiermethoden-CampusMinden/Prog2-Lecture/_s26/lecture/git/images/linkedworktrees_inv.png" /><img src="https://raw.githubusercontent.com/Programmiermethoden-CampusMinden/Prog2-Lecture/_s26/lecture/git/images/linkedworktrees.png" width="80%" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Programmiermethoden-CampusMinden/Prog2-Lecture/_s26/lecture/git/images/linkedworktrees_inv.png" /><img src="https://raw.githubusercontent.com/Programmiermethoden-CampusMinden/Prog2-Lecture/_s26/lecture/git/images/linkedworktrees.png" width="60%" /></picture></p>
 
 ## Worktree anlegen
 
@@ -188,4 +188,4 @@ Git Worktree: Auschecken von Branches in separate Ordner
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 7f1d964 2026-04-11 git: rename files<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d0d14f5 2026-04-21 git4: improve image scaling<br></sub></sup></p></blockquote>

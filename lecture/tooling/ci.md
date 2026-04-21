@@ -425,8 +425,8 @@ Im Browser in den Repo-Einstellungen arbeiten:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   „Documentation Gitlab CI" ([o. J.](#ref-GitlabCI))
-> -   GitHub Inc. ([2022](#ref-GitHubCI))
+> Eine gute Quelle zum Nachlesen bietet der Blog [What is CI/CD?
+> (GitHub)](https://resources.github.com/ci-cd/).
 >
 > </details>
 
@@ -461,35 +461,8 @@ Im Browser in den Repo-Einstellungen arbeiten:
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-GitlabCI" class="csl-entry">
->
-> „Documentation Gitlab CI". o. J. Zugegriffen 10. März 2022.
-> <http://git03-ifm-min.ad.hsbi.de/help/ci/>.
->
-> </div>
->
-> <div id="ref-GitHubCI" class="csl-entry">
->
-> GitHub Inc. 2022. „Documentation GitHub CI".
-> <https://resources.github.com/ci-cd/>.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 04fcc09 2026-04-11 tooling: rename folder<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 237f2aa 2026-04-21 ci: use link to blog instead of literatur<br></sub></sup></p></blockquote>
