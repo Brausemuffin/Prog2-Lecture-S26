@@ -1,4 +1,4 @@
-# Git Worktree
+# Git4: Worktree
 
 > [!IMPORTANT]
 >
@@ -21,8 +21,11 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Git Worktree](https://youtu.be/nDkg6WvA0bk)
-> -   [Demo Git Worktree](https://youtu.be/RtXrv0oK3-w)
+> Vorlesung Git Worktree \[[YT](https://youtu.be/5jI9MTKIKTs)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git4-worktree/80984d064888d7ed2cff5b3bd4f5e62e/250)\]
+>
+> Demo Git Worktree \[[YT](https://youtu.be/aCyvKii19yQ)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git4-demo-git-worktree/d72f222248f9a91aa34db97007456750/250)\]
 >
 > </details>
 
@@ -165,9 +168,15 @@ Git Worktree: Auschecken von Branches in separate Ordner
 -   Anschauen: `git worktree list`
 -   Löschen: `git worktree remove <worktree>`
 
-<!-- -->
-
--   Dokumentation: https://git-scm.com/docs/git-worktree
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> Eine gute Quelle zum Nachlesen bietet die
+> [Git-Dokumentation](https://git-scm.com/docs/git-worktree).
+>
+> </details>
 
 > [!NOTE]
 >
@@ -188,4 +197,4 @@ Git Worktree: Auschecken von Branches in separate Ordner
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> d0d14f5 2026-04-21 git4: improve image scaling<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f6a6e4a 2026-04-22 git4: put link to documentation in readings section<br></sub></sup></p></blockquote>

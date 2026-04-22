@@ -2,8 +2,8 @@
 - **Vorlesungsunterlagen**
   - **Versionierung mit Git**
     - [Git1: Basics der Versionsverwaltung mit Git](lecture/git/git1-basics.md)
-    - [Git Branches: Features unabhängig entwickeln und mit Git verwalten](lecture/git/git2-branches.md)
-    - [Git Worktree](lecture/git/git4-worktree.md)
+    - [Git2: Branches und Remotes](lecture/git/git2-branches.md)
+    - [Git4: Worktree](lecture/git/git4-worktree.md)
     - [Branching-Strategien & Git-Workflows](lecture/git/git3-workflows.md)
   - **Bauen von Programmen, Automatisierung, Continuous Integration**
     - [Build-Systeme: Gradle](lecture/tooling/gradle.md)

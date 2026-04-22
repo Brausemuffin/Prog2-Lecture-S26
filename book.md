@@ -981,7 +981,7 @@ einem Einsatz in einem professionellen Umfeld wäre ich hier aber sehr
 
 <a id="id-7a10016b283d273774835cdf25db171813b65ae1"></a>
 
-#### Git Branches: Features unabhängig entwickeln und mit Git verwalten
+#### Git2: Branches und Remotes
 
 > [!IMPORTANT]
 >
@@ -1038,22 +1038,28 @@ einem Einsatz in einem professionellen Umfeld wäre ich hier aber sehr
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Git Branches](https://youtu.be/WXPJOsgeR10)
+> Vorlesung:
 >
-> -   [Demo Anlegen und Mergen von
->     Branches](https://youtu.be/B8sesK1GyiE)
+> -   Teil 1: Branches \[[YT](https://youtu.be/JKiiPjbmxt4)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git2-branches-und-remotes-teil-1/e22f97bf0f89fc53478219e9ec6b6b38/250)\]
+> -   Teil 2: Remotes \[[YT](https://youtu.be/VeNOCZChSyE)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git2-branches-und-remotes-teil-2/a1c74b85480b25fcf127b61ff5273cc2/250)\]
 >
-> -   [Demo Auflösen von Merge-Konflikten](https://youtu.be/iEr9i8auF7c)
+> Demos:
 >
-> -   [Demo HEAD](https://youtu.be/U4gd0FBBqZQ)
->
-> -   [VL Git Remotes](https://youtu.be/_uhEseblDYU)
->
-> -   [Demo Fetch, Pull und Push](https://youtu.be/moqywsxtEy8)
->
-> -   [Demo Tracking-Branches](https://youtu.be/0RoqM5Wmxfc)
->
-> -   [Demo Verknüpfen weiterer Remotes](https://youtu.be/jL4AvSsjjKg)
+> -   Anlegen und Mergen von Branches
+>     \[[YT](https://youtu.be/K5PgV_OYdDU)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git2-demo-branches/e69299753000844af4923979dba2c740/250)\]
+> -   Auflösen von Merge-Konflikten
+>     \[[YT](https://youtu.be/i-rQ8r1bL5o)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git2-demo-merge-konflikt/b74469b393bb2fd3780745a567481c9b/250)\]
+> -   HEAD \[[YT](https://youtu.be/zuJh-4tzCz0)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git2-demo-head/4265fd790530b9d3cb708a40679116d0/250)\]
+> -   Fetch, Pull und Push \[[YT](https://youtu.be/FN5gfxJwgr8)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git2-demo-fetch-push/2da581076c33a4f642f41ffbf5a01b63/250)\]
+> -   Verknüpfen weiterer Remotes
+>     \[[YT](https://youtu.be/-rDCWRGR85I)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git2-demo-remotes/efff6edb6e7ae8b3bb3e4bcb272444d9/250)\]
 >
 > [Introduction to Git with Scott Chacon of GitHub (zweiter Teil, ab ca.
 > Minute 45)](https://youtu.be/ZDR433b0HJY)
@@ -1674,7 +1680,7 @@ Schalter `--bare` mitgeben: `git init --bare` ...
 
 <a id="id-5db10a4f8576b6c653205f4ea76dcf01bce19a5e"></a>
 
-#### Git Worktree
+#### Git4: Worktree
 
 > [!IMPORTANT]
 >
@@ -1697,8 +1703,11 @@ Schalter `--bare` mitgeben: `git init --bare` ...
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Git Worktree](https://youtu.be/nDkg6WvA0bk)
-> -   [Demo Git Worktree](https://youtu.be/RtXrv0oK3-w)
+> Vorlesung Git Worktree \[[YT](https://youtu.be/5jI9MTKIKTs)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git4-worktree/80984d064888d7ed2cff5b3bd4f5e62e/250)\]
+>
+> Demo Git Worktree \[[YT](https://youtu.be/aCyvKii19yQ)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-git4-demo-git-worktree/d72f222248f9a91aa34db97007456750/250)\]
 >
 > </details>
 
@@ -1841,9 +1850,15 @@ Git Worktree: Auschecken von Branches in separate Ordner
 -   Anschauen: `git worktree list`
 -   Löschen: `git worktree remove <worktree>`
 
-<!-- -->
-
--   Dokumentation: https://git-scm.com/docs/git-worktree
+> [!TIP]
+>
+> <details open>
+> <summary><strong>📖 Zum Nachlesen</strong></summary>
+>
+> Eine gute Quelle zum Nachlesen bietet die
+> [Git-Dokumentation](https://git-scm.com/docs/git-worktree).
+>
+> </details>
 
 > [!NOTE]
 >
@@ -3441,9 +3456,15 @@ schlecht als Bibliothek verwenden oder in andere Projekte integrieren.**
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Continuous Integration](https://youtu.be/NCWxo-PN4gs)
-> -   [Demo GitHub Actions](https://youtu.be/rpkZvuiyvTU)
-> -   [Demo Demo GitLab CI/CD](https://youtu.be/2ydDA4WY1wA)
+> Vorlesung CI \[[YT](https://youtu.be/Ai2XxvB52MI)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-continuous-integration-ci/5e965fe15c6acbd1a45f17de3d2c8225/250)\]
+>
+> Demos:
+>
+> -   GitHub Actions \[[YT](https://youtu.be/1NPnx8vyIrU)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-ci-demo-github-actions/582d7e53b5ea76b688e6dc7b799892b8/250)\]
+> -   GitLab CI/CD \[[YT](https://youtu.be/4qEgrEd58PE)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/album/video/pr2-ci-demo-gitlab-cicd/2ae38833b8283c1efed3818b8008e0b4/250)\]
 >
 > </details>
 
@@ -16840,18 +16861,18 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   "*Refactoring*": ([Fowler 2011](#ref-Fowler2011), p. 53)
 -   ["A Note About Git Commit
     Messages"](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
     by [Tim Pope](https://tpo.pe/) on tbaggery.com
+-   "*Any fool...*": ([Fowler 2011](#ref-Fowler2011), p. 15)
 -   ["356:
     Refactoring"](http://altlasten.lutz.donnerhacke.de/mitarb/lutz/usenet/Fachbegriffe.der.Informatik.html#356)
     by [Andreas Bogk](mailto:andreas@andreas.org) on Lutz Donnerhacke:
     "Fachbegriffe der Informatik"
 -   "*Three strikes...*": ([Fowler 2011](#ref-Fowler2011), p. 58)
--   "*Any fool...*": ([Fowler 2011](#ref-Fowler2011), p. 15)
+-   "*Refactoring*": ([Fowler 2011](#ref-Fowler2011), p. 53)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> a179cba 2026-04-21 git2: fix rendering issues<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f6a6e4a 2026-04-22 git4: put link to documentation in readings section<br></sub></sup></p></blockquote>
 
 [^1]: Naja, ein kläglicher Versuch. Namen sind eines der schwierigen
     Probleme in der Informatik.
