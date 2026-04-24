@@ -1,4 +1,4 @@
-# Swing: Layout-Manager
+# Swing 3: Layout-Manager
 
 > [!IMPORTANT]
 >
@@ -313,4 +313,4 @@ wird der neue Platz unter den Slots gemäß ihren Gewichten aufgeteilt.
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> aa9160d 2026-04-11 reformat readme<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e1520f5 2026-04-24 swing: fix titles<br></sub></sup></p></blockquote>

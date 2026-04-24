@@ -1,4 +1,4 @@
-# Swing: Nützliche Widgets
+# Swing 2: Nützliche Widgets
 
 > [!IMPORTANT]
 >
@@ -288,4 +288,4 @@ Nützliche Swing-Komponenten:
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 16fc70d 2026-04-11 reformat markdown<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> e1520f5 2026-04-24 swing: fix titles<br></sub></sup></p></blockquote>

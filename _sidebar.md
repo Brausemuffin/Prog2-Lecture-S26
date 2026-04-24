@@ -32,10 +32,10 @@
     - [Visitor-Pattern](lecture/pattern/visitor.md)
     - [Command-Pattern](lecture/pattern/command.md)
   - **Graphische Oberflächen mit Swing und Java2D**
-    - [Swing Events](lecture/gui/swing4-events.md)
-    - [Swing 101: Basics](lecture/gui/swing1-basics.md)
-    - [Swing: Nützliche Widgets](lecture/gui/swing2-widgets.md)
-    - [Swing: Layout-Manager](lecture/gui/swing3-layouts.md)
+    - [Swing 4: Events](lecture/gui/swing4-events.md)
+    - [Swing 1: Basics](lecture/gui/swing1-basics.md)
+    - [Swing 2: Nützliche Widgets](lecture/gui/swing2-widgets.md)
+    - [Swing 3: Layout-Manager](lecture/gui/swing3-layouts.md)
     - [Einführung in Graphics und Java 2D](lecture/gui/swing6-java2d.md)
   - **Fortgeschrittene Java-Themen und Umgang mit JVM**
     - [Reguläre Ausdrücke](lecture/java-classic/regexp.md)
