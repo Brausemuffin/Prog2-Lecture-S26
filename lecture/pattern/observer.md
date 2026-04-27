@@ -28,8 +28,11 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Observer-Pattern](https://youtu.be/833lHcoxeog)
-> -   [Demo Observer-Pattern](https://youtu.be/0mgB8RfcNuM)
+> Vorlesung \[[YT](https://youtu.be/yzh2ZYZOMFg)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-observer-pattern/80f0423b5dbb7574718fe4f2ecd39e53)\]
+>
+> Demo \[[YT](https://youtu.be/bBwqo2TTgCM)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-observer-pattern/a771ca7e86701b18cd903642886cbe42)\]
 >
 > </details>
 
@@ -127,8 +130,12 @@ Statusänderungen
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Nystrom ([2014, Kap. 4](#ref-Nystrom2014))
-> -   Gamma u. a. ([2011](#ref-Gamma2011))
+> Auch wenn es für C++ geschrieben ist, lässt sich zum Thema
+> Observer-Pattern das Kapitel 4 "Observer" im Nystrom
+> ([2014](#ref-Nystrom2014)) sehr gut lesen. Der Verweis auf Gamma u. a.
+> ([2011](#ref-Gamma2011)) der ["Gang of
+> Four"](https://en.wikipedia.org/wiki/Design_Patterns) darf natürlich
+> nicht fehlen.
 >
 > </details>
 
@@ -240,4 +247,4 @@ Statusänderungen
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 95a02cf 2025-08-09 markdown: switch to leaner yaml header (#1037)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> a9a5a6b 2026-04-27 observer: rework readings<br></sub></sup></p></blockquote>

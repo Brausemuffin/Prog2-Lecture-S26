@@ -35,8 +35,11 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing 101](https://youtu.be/ynwu6LuSLgQ)
-> -   [Demo Einfaches Fenster](https://youtu.be/L3Y2mB7-jRQ)
+> Vorlesung \[[YT](https://youtu.be/UNTMWHEbnYs)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-1-basics/426b0e66bbe4a2d940655a40341002f2)\]
+>
+> Demo Einfaches Fenster \[[YT](https://youtu.be/IKsptx69iTM)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-einfaches-fenster/f221a9c89a1f8c12d494171967fc3b8e)\]
 >
 > </details>
 
@@ -184,8 +187,10 @@ Swing"](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/index.html).
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Basics können Sie im Tutorial ["Using Top-Level
+> Containers"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/components/toplevel.html)
+> nachlesen.
 >
 > </details>
 
@@ -200,36 +205,8 @@ Swing"](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/index.html).
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-Java-SE-Tutorial" class="csl-entry">
->
-> Oracle Corporation. 2024. „The Java Tutorials".
-> <https://docs.oracle.com/javase/tutorial/>.
->
-> </div>
->
-> <div id="ref-Ullenboom2021" class="csl-entry">
->
-> Ullenboom, C. 2021. *Java ist auch eine Insel*. 16. Aufl.
-> Rheinwerk-Verlag.
-> <https://openbook.rheinwerk-verlag.de/javainsel/index.html>.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e1520f5 2026-04-24 swing: fix titles<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 6a34679 2026-04-27 swing1: rework readings<br></sub></sup></p></blockquote>

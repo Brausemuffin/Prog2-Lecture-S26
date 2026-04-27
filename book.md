@@ -4802,13 +4802,21 @@ Codespaces](https://github.com/features/codespaces) von GitHub auf.
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> Vorlesung \[[YT](todo)\], \[[HSBI](todo)\]
+> Vorlesung:
+>
+> -   Teil 1 \[[YT](https://youtu.be/q0LquRchCuY)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-testen-mit-junit-junit-basics-teil-1/f0c405db106e41a1ccb9d0aa2d85cfce)\]
+> -   Teil 2 \[[YT](https://youtu.be/6VEDu3eJ-Cc)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-testen-mit-junit-junit-basics-teil-2/d72049754cb5cf30c1b635b0ee676bf1)\]
 >
 > Demos:
 >
-> -   Anlegen von Testfällen \[[YT](todo)\], \[[HSBI](todo)\]
-> -   `assume()` vs. `assert()` \[[YT](todo)\], \[[HSBI](todo)\]
-> -   Parametrisierte Tests \[[YT](todo)\], \[[HSBI](todo)\]
+> -   Anlegen von Testfällen \[[YT](https://youtu.be/CNMT39T8RvI)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-demo-anlegen-von-testfllen-mit-junit/93ca4f3d7f28063b30a952c040517733)\]
+> -   `assume()` vs. `assert()` \[[YT](https://youtu.be/e2XoPr3LfOA)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-demo-assume-vs-assert/1ad1a68c9464994488e184cde6534d47)\]
+> -   Parametrisierte Tests \[[YT](https://youtu.be/IeGXaNHcX3w)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-demo-parametrisierte-tests/bef1445ac86072839750932073021337)\]
 >
 > </details>
 
@@ -7204,14 +7212,21 @@ TODO
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Lambda-Ausdrücke und funktionale
->     Interfaces](https://youtu.be/Wd8KG7xtp4c)
-> -   [Demo Anonyme innere Klasse](https://youtu.be/QEXpQwRYoYc)
-> -   [Demo Lambda-Ausdruck](https://youtu.be/2LJIxsVw4pM)
-> -   [Demo Funktionale Interfaces selbst
->     definiert](https://youtu.be/93O1oDL5_5c)
-> -   [Demo Vordefinierte funktionale Interfaces im
->     JDK](https://youtu.be/jzEw8IH8Mfc)
+> Vorlesung \[[YT](https://youtu.be/F1uv2bZgGOU)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-lambda-ausdrcke-und-funktionale-interfaces/017c7be527599311dd6763eacb2f0d9b)\]
+>
+> Demos:
+>
+> -   Anonyme innere Klassen \[[YT](https://youtu.be/5AGdWQxH6WQ)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-anonyme-innere-klassen/3db31de96e28d147703a16c55190249f)\]
+> -   Lambda-Ausdrücke \[[YT](https://youtu.be/X6FpoIzCxGQ)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-lambda-ausdrcke/16a8d9e2dd74e7aa34fd98f884773cbc)\]
+> -   Funktionale Interfaces selbst definiert
+>     \[[YT](https://youtu.be/gEmK8sDjBu0)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-funktionale-interfaces-selbst-definiert/9cf03bce9778161791bc04da6e55588d)\]
+> -   Vordefinierte funktionale Interfaces im JDK
+>     \[[YT](https://youtu.be/Ed6yck5Gvwk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-vordefinierte-funktionale-interfaces-im-jdk/068208f0b3272fd18dbf092ff376bf76)\]
 >
 > </details>
 
@@ -7464,7 +7479,7 @@ Das in den obigen Beispielen eingesetzte Interface
 nur *eine* eigene abstrakte Methode `int compare(T o1, T o2);`.
 
 Im Package
-[java.util.function](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/function/package-summary.html)
+[java.util.function](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/package-summary.html)
 sind einige wichtige funktionale Interfaces bereits vordefiniert,
 beispielsweise `Predicate` (Test, ob eine Bedingung erfüllt ist) und
 `Function` (verarbeite einen Wert und liefere einen passenden
@@ -7559,9 +7574,11 @@ Lambda-Ausdruck stolpert:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Urma u. a. ([2014, Kap. 3](#ref-Urma2014))
-> -   Ullenboom ([2021, Kap. 12](#ref-Ullenboom2021))
+> Lesen Sie zu diesem Thema auch in den Oracle-Tutorials ["Writing Your
+> First Lambda Expression"
+> (Oracle)](https://dev.java/learn/lambdas/first-lambdas/) und ["Using
+> Lambdas Expressions in Your Application"
+> (Oracle)](https://dev.java/learn/lambdas/functional-interfaces/) nach.
 >
 > </details>
 
@@ -7711,13 +7728,20 @@ Lambda-Ausdruck stolpert:
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Methoden-Referenzen](https://youtu.be/z0mfvvrsRzc)
-> -   [Demo Referenz auf statische
->     Methode](https://youtu.be/YFdPcxE_1Eo)
-> -   [Demo Referenz auf Instanz-Methode
->     (Objekt)](https://youtu.be/ImJTywhXrJo)
-> -   [Demo Referenz auf Instanz-Methode
->     (Typ)](https://youtu.be/DVz2x27WHU8)
+> Vorlesung \[[YT](https://youtu.be/q5gptwHDJEM)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-methoden-referenzen/6a9ab0c3e5af8ace9ddb62e5a5506e0a)\]
+>
+> Demos:
+>
+> -   Referenz auf statische Methode
+>     \[[YT](https://youtu.be/WI8GKC42zZg)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-referenz-auf-statische-methode/9b18f6efb5bf54d4e98a8dbf8469fcfd)\]
+> -   Referenz auf Instanz-Methode (Objekt)
+>     \[[YT](https://youtu.be/u4OiqmBQEYY)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-referenz-auf-instanz-methode-objekt/1a92bdbab9c7572518e0f453073e08a5)\]
+> -   Referenz auf Instanz-Methode (Typ)
+>     \[[YT](https://youtu.be/57ngXQsEtTU)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-referenz-auf-instanz-methode-typ/db406dfb1389a90f4399bfdd5cc7c6f4)\]
 >
 > </details>
 
@@ -7991,8 +8015,12 @@ Seit Java8: **Methoden-Referenzen** statt anonymer Klassen
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Urma u. a. ([2014, Kap. 3](#ref-Urma2014))
+> Lesen Sie zu diesem Thema auch in den Oracle-Tutorials ["Writing
+> Lambda Expressions as Method References"
+> (Oracle)](https://dev.java/learn/lambdas/method-references/) und
+> ["Combining Lambda Expressions"
+> (Oracle)](https://dev.java/learn/lambdas/combining-chaining-composing/)
+> nach.
 >
 > </details>
 
@@ -9883,8 +9911,11 @@ Optionals"](https://dev.java/learn/api/streams/optionals/).
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Observer-Pattern](https://youtu.be/833lHcoxeog)
-> -   [Demo Observer-Pattern](https://youtu.be/0mgB8RfcNuM)
+> Vorlesung \[[YT](https://youtu.be/yzh2ZYZOMFg)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-observer-pattern/80f0423b5dbb7574718fe4f2ecd39e53)\]
+>
+> Demo \[[YT](https://youtu.be/bBwqo2TTgCM)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-observer-pattern/a771ca7e86701b18cd903642886cbe42)\]
 >
 > </details>
 
@@ -9982,8 +10013,12 @@ Statusänderungen
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Nystrom ([2014, Kap. 4](#ref-Nystrom2014))
-> -   Gamma u. a. ([2011](#ref-Gamma2011))
+> Auch wenn es für C++ geschrieben ist, lässt sich zum Thema
+> Observer-Pattern das Kapitel 4 "Observer" im Nystrom
+> ([2014](#ref-Nystrom2014)) sehr gut lesen. Der Verweis auf Gamma u. a.
+> ([2011](#ref-Gamma2011)) der ["Gang of
+> Four"](https://en.wikipedia.org/wiki/Design_Patterns) darf natürlich
+> nicht fehlen.
 >
 > </details>
 
@@ -11190,10 +11225,16 @@ keine weitere Buchhaltung ...
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing Events](https://youtu.be/Un-FS88__VU)
-> -   [Demo Swing Events und Listener](https://youtu.be/hjchoDaqcWY)
-> -   [Demo MouseListener
->     vs. MouseAdapter](https://youtu.be/GaKMBAXY19w)
+> Vorlesung \[[YT](https://youtu.be/TuL8NUQfKWo)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-4-events/b2f0f0ca1af3969dc3ff2ff4a20c2b8c)\]
+>
+> Demos:
+>
+> -   Swing Events und Listener \[[YT](https://youtu.be/gR6uHmMG4rk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-events-und-listener/fcbd66f8c1cdf3e0e4f0f76bc4d1ffb9)\]
+> -   MouseListener vs. MouseAdapter
+>     \[[YT](https://youtu.be/8GGUpSOFWjE)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-mouselistener-vs-mouseadapter/c7633620d72a1eee218d99995d5fd14d)\]
 >
 > </details>
 
@@ -11304,8 +11345,10 @@ Observer-Pattern in Swing-Komponenten:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Events können Sie im Tutorial ["Lesson: Writing Event
+> Listeners"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/events/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -11362,8 +11405,11 @@ Observer-Pattern in Swing-Komponenten:
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing 101](https://youtu.be/ynwu6LuSLgQ)
-> -   [Demo Einfaches Fenster](https://youtu.be/L3Y2mB7-jRQ)
+> Vorlesung \[[YT](https://youtu.be/UNTMWHEbnYs)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-1-basics/426b0e66bbe4a2d940655a40341002f2)\]
+>
+> Demo Einfaches Fenster \[[YT](https://youtu.be/IKsptx69iTM)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-einfaches-fenster/f221a9c89a1f8c12d494171967fc3b8e)\]
 >
 > </details>
 
@@ -11512,8 +11558,10 @@ Swing"](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/index.html).
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Basics können Sie im Tutorial ["Using Top-Level
+> Containers"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/components/toplevel.html)
+> nachlesen.
 >
 > </details>
 
@@ -11561,13 +11609,24 @@ Swing"](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/index.html).
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing Widgets](https://youtu.be/cUtK-yL5Wpw)
-> -   [Demo JRadioButton](https://youtu.be/auu5wr0lr3w)
-> -   [Demo JFileChooser](https://youtu.be/HEm7ATvdYJo)
-> -   [Demo JOptionPane](https://youtu.be/kfTVZ_W8u6o)
-> -   [Demo JTabbedPane und JScrollPane](https://youtu.be/EAuT4n5mfAg)
-> -   [Demo JMenuBar](https://youtu.be/zMlrKRV8WIY)
-> -   [Demo JPopupMenu](https://youtu.be/ftHDFIkaC-E)
+> Vorlesung \[[YT](https://youtu.be/qjKAIAqsFtA)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-2-ntzliche-widgets/7064e0a8080c052676f88e096fcb5c26)\]
+>
+> Demos:
+>
+> -   JRadioButton \[[YT](https://youtu.be/IHEiinwRvcg)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jradiobutton/448ff17582e4aa55c1c88d6e6e78b701)\]
+> -   JFileChooser \[[YT](https://youtu.be/9-ECtlFuRWY)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jfilechooser/495b9bd49d942961ab3905ce766b2abc)\]
+> -   JOptionPane \[[YT](https://youtu.be/rYRuDbZmeMk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-joptionpane/f2328dc05a9d30b14ed17deb677ae6b0)\]
+> -   JTabbedPane und JScrollPane
+>     \[[YT](https://youtu.be/LtT6fzVtYbU)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jtabbedpane-und-jscrollpane/b39670f201f71ad0b4bae98cfd75bb1e)\]
+> -   JMenuBar \[[YT](https://youtu.be/f9fg27yAQRg)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jmenubar/108f274f948752ed382eaa9b89b73d32)\]
+> -   JPopupMenu \[[YT](https://youtu.be/IzEgsP41y5U)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jpopupmenu/5a403d718e5918db2f736c7f16afeef9)\]
 >
 > </details>
 
@@ -11766,8 +11825,10 @@ Nützliche Swing-Komponenten:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Widgets können Sie im Tutorial ["Lesson: Using Swing
+> Components"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/components/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -11818,11 +11879,19 @@ Nützliche Swing-Komponenten:
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing: Layout-Manager](https://youtu.be/An7tQMW1A3E)
-> -   [Demo BorderLayout](https://youtu.be/tifXSKXSUYw)
-> -   [Demo FlowLayout](https://youtu.be/tYTDhv6lwT8)
-> -   [Demo GridLayout](https://youtu.be/JyN_Wozg3ms)
-> -   [Demo GridBagLayout](https://youtu.be/95PG2alVTSo)
+> Vorlesung \[[YT](https://youtu.be/qpnTTP7FSm8)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-3-layout-manager/0683986ffdeef59177cf546268505f15)\]
+>
+> Demos:
+>
+> -   BorderLayout \[[YT](https://youtu.be/a8K96BOw89c)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-borderlayout/0008c0637bf3bc562bd7e4b2e1cc626a)\]
+> -   FlowLayout \[[YT](https://youtu.be/8Nl6aRD9TpA)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-flowlayout/d75b9f29ca08f42a29991aca02dec89f)\]
+> -   GridLayout \[[YT](https://youtu.be/DYyjxb4kWMo)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-gridlayout/af5bf8e49bcbb37b78a027569e6f24d5)\]
+> -   GridBagLayout \[[YT](https://youtu.be/NDfO_OLrwxI)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-gridbaglayout/adcb5b8aa539f9e4e1b7fa506a8f8495)\]
 >
 > </details>
 
@@ -11936,7 +12005,7 @@ bzw. `setVgap()` eingestellt werden.
 -   Zusätzlich `GridBagConstraints`: Verhalten bei Größenveränderungen
 
 | Constraint | Bedeutung |
-|:-------------|:---------------------------------------------------------|
+|:---------------|:-------------------------------------------------------|
 | `gridx` | **Spalte** für Komponente (linke obere Ecke) |
 | `gridy` | **Zeile** für Komponente (linke obere Ecke) |
 | `gridwidth` | **Anzahl der Spalten** für Komponente |
@@ -11998,8 +12067,10 @@ wird der neue Platz unter den Slots gemäß ihren Gewichten aufgeteilt.
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Layouts und -manager können Sie im Tutorial ["Lesson:
+> Laying Out Components Within a Container"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/layout/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -12069,7 +12140,7 @@ wird der neue Platz unter den Slots gemäß ihren Gewichten aufgeteilt.
 
 <a id="id-804217568fc6db951b84fb79cf8c698cdb107312"></a>
 
-#### Einführung in Graphics und Java 2D
+#### Swing 6: Einführung in Graphics und Java 2D
 
 > [!IMPORTANT]
 >
@@ -12109,11 +12180,19 @@ wird der neue Platz unter den Slots gemäß ihren Gewichten aufgeteilt.
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Java2D](https://youtu.be/LDE_Kbc9w7k)
-> -   [Demo geometrische Objekte](https://youtu.be/vzBH0MjJ0rM)
-> -   [Demo Fonts](https://youtu.be/F-6fIGeGAcY)
-> -   [Demo Polygone](https://youtu.be/BLTZ3XhbvkY)
-> -   [Demo Bewegung und 2D-Spiel](https://youtu.be/wfVwSyTgm-w)
+> Vorlesung \[[YT](https://youtu.be/a07lUyJRX3g)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-6-einfhrung-in-graphics-und-java-2d/3caa2dad5870b4e08cf01ee9d20f05fc)\]
+>
+> Demos:
+>
+> -   Geometrische Objekte \[[YT](https://youtu.be/Cw2TZmIuI14)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-polygone/4934d8b7629f29f437ef5ba1524b2221)\]
+> -   Fonts \[[YT](https://youtu.be/z8pz3ZnYkFk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-fonts/8a3d5ac6b1bb55323ef4881ef3dea1cf)\]
+> -   Polygone \[[YT](https://youtu.be/2-Le4ONlt08)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-polygone/6f4b1e0e38dd3cbba925755102b49150)\]
+> -   Bewegung und 2D-Spiel \[[YT](https://youtu.be/Ke-I8q4taQI)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-bewegung-und-2d-spiel/dfdb1c3b7f8e8713bf97b53f48c03573)\]
 >
 > </details>
 
@@ -12414,8 +12493,9 @@ Weitere evtl. nützliche Methoden:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Java2D können Sie im Tutorial ["Trail: 2D Graphics"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/2d/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -17237,18 +17317,18 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
--   "*Three strikes...*": ([Fowler 2011](#ref-Fowler2011), p. 58)
 -   "*Refactoring*": ([Fowler 2011](#ref-Fowler2011), p. 53)
--   ["356:
-    Refactoring"](http://altlasten.lutz.donnerhacke.de/mitarb/lutz/usenet/Fachbegriffe.der.Informatik.html#356)
-    by [Andreas Bogk](mailto:andreas@andreas.org) on Lutz Donnerhacke:
-    "Fachbegriffe der Informatik"
 -   "*Any fool...*": ([Fowler 2011](#ref-Fowler2011), p. 15)
 -   ["A Note About Git Commit
     Messages"](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
     by [Tim Pope](https://tpo.pe/) on tbaggery.com
+-   "*Three strikes...*": ([Fowler 2011](#ref-Fowler2011), p. 58)
+-   ["356:
+    Refactoring"](http://altlasten.lutz.donnerhacke.de/mitarb/lutz/usenet/Fachbegriffe.der.Informatik.html#356)
+    by [Andreas Bogk](mailto:andreas@andreas.org) on Lutz Donnerhacke:
+    "Fachbegriffe der Informatik"
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> cc7ea96 2026-04-27 packages: add new library challenge<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5adadda 2026-04-27 swing2: rework readings<br></sub></sup></p></blockquote>
 
 [^1]: Anmerkung: Das obige Beispiel dient als Überblick gebräuchlicher
     terminaler Operationen, es ist nicht als lauffähiges Programm

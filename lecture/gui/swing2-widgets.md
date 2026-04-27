@@ -31,13 +31,24 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing Widgets](https://youtu.be/cUtK-yL5Wpw)
-> -   [Demo JRadioButton](https://youtu.be/auu5wr0lr3w)
-> -   [Demo JFileChooser](https://youtu.be/HEm7ATvdYJo)
-> -   [Demo JOptionPane](https://youtu.be/kfTVZ_W8u6o)
-> -   [Demo JTabbedPane und JScrollPane](https://youtu.be/EAuT4n5mfAg)
-> -   [Demo JMenuBar](https://youtu.be/zMlrKRV8WIY)
-> -   [Demo JPopupMenu](https://youtu.be/ftHDFIkaC-E)
+> Vorlesung \[[YT](https://youtu.be/qjKAIAqsFtA)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-2-ntzliche-widgets/7064e0a8080c052676f88e096fcb5c26)\]
+>
+> Demos:
+>
+> -   JRadioButton \[[YT](https://youtu.be/IHEiinwRvcg)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jradiobutton/448ff17582e4aa55c1c88d6e6e78b701)\]
+> -   JFileChooser \[[YT](https://youtu.be/9-ECtlFuRWY)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jfilechooser/495b9bd49d942961ab3905ce766b2abc)\]
+> -   JOptionPane \[[YT](https://youtu.be/rYRuDbZmeMk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-joptionpane/f2328dc05a9d30b14ed17deb677ae6b0)\]
+> -   JTabbedPane und JScrollPane
+>     \[[YT](https://youtu.be/LtT6fzVtYbU)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jtabbedpane-und-jscrollpane/b39670f201f71ad0b4bae98cfd75bb1e)\]
+> -   JMenuBar \[[YT](https://youtu.be/f9fg27yAQRg)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jmenubar/108f274f948752ed382eaa9b89b73d32)\]
+> -   JPopupMenu \[[YT](https://youtu.be/IzEgsP41y5U)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-jpopupmenu/5a403d718e5918db2f736c7f16afeef9)\]
 >
 > </details>
 
@@ -236,8 +247,10 @@ Nützliche Swing-Komponenten:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Widgets können Sie im Tutorial ["Lesson: Using Swing
+> Components"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/components/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -256,36 +269,8 @@ Nützliche Swing-Komponenten:
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-Java-SE-Tutorial" class="csl-entry">
->
-> Oracle Corporation. 2024. „The Java Tutorials".
-> <https://docs.oracle.com/javase/tutorial/>.
->
-> </div>
->
-> <div id="ref-Ullenboom2021" class="csl-entry">
->
-> Ullenboom, C. 2021. *Java ist auch eine Insel*. 16. Aufl.
-> Rheinwerk-Verlag.
-> <https://openbook.rheinwerk-verlag.de/javainsel/index.html>.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e1520f5 2026-04-24 swing: fix titles<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5adadda 2026-04-27 swing2: rework readings<br></sub></sup></p></blockquote>

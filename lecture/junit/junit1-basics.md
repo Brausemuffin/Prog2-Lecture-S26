@@ -38,13 +38,21 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> Vorlesung \[[YT](todo)\], \[[HSBI](todo)\]
+> Vorlesung:
+>
+> -   Teil 1 \[[YT](https://youtu.be/q0LquRchCuY)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-testen-mit-junit-junit-basics-teil-1/f0c405db106e41a1ccb9d0aa2d85cfce)\]
+> -   Teil 2 \[[YT](https://youtu.be/6VEDu3eJ-Cc)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-testen-mit-junit-junit-basics-teil-2/d72049754cb5cf30c1b635b0ee676bf1)\]
 >
 > Demos:
 >
-> -   Anlegen von Testfällen \[[YT](todo)\], \[[HSBI](todo)\]
-> -   `assume()` vs. `assert()` \[[YT](todo)\], \[[HSBI](todo)\]
-> -   Parametrisierte Tests \[[YT](todo)\], \[[HSBI](todo)\]
+> -   Anlegen von Testfällen \[[YT](https://youtu.be/CNMT39T8RvI)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-demo-anlegen-von-testfllen-mit-junit/93ca4f3d7f28063b30a952c040517733)\]
+> -   `assume()` vs. `assert()` \[[YT](https://youtu.be/e2XoPr3LfOA)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-demo-assume-vs-assert/1ad1a68c9464994488e184cde6534d47)\]
+> -   Parametrisierte Tests \[[YT](https://youtu.be/IeGXaNHcX3w)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-junit1-demo-parametrisierte-tests/bef1445ac86072839750932073021337)\]
 >
 > </details>
 
@@ -1120,4 +1128,4 @@ JUnit als Framework für (Unit-) Tests
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e68e675 2026-04-24 junit1: improve slide layout<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 243da2a 2026-04-27 junit1: rework all screencasts<br></sub></sup></p></blockquote>

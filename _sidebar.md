@@ -36,7 +36,7 @@
     - [Swing 1: Basics](lecture/gui/swing1-basics.md)
     - [Swing 2: Nützliche Widgets](lecture/gui/swing2-widgets.md)
     - [Swing 3: Layout-Manager](lecture/gui/swing3-layouts.md)
-    - [Einführung in Graphics und Java 2D](lecture/gui/swing6-java2d.md)
+    - [Swing 6: Einführung in Graphics und Java 2D](lecture/gui/swing6-java2d.md)
   - **Fortgeschrittene Java-Themen und Umgang mit JVM**
     - [Reguläre Ausdrücke](lecture/java-classic/regexp.md)
     - [Dependency Injection](lecture/java-classic/dependency.md)

@@ -28,10 +28,16 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing Events](https://youtu.be/Un-FS88__VU)
-> -   [Demo Swing Events und Listener](https://youtu.be/hjchoDaqcWY)
-> -   [Demo MouseListener
->     vs. MouseAdapter](https://youtu.be/GaKMBAXY19w)
+> Vorlesung \[[YT](https://youtu.be/TuL8NUQfKWo)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-4-events/b2f0f0ca1af3969dc3ff2ff4a20c2b8c)\]
+>
+> Demos:
+>
+> -   Swing Events und Listener \[[YT](https://youtu.be/gR6uHmMG4rk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-events-und-listener/fcbd66f8c1cdf3e0e4f0f76bc4d1ffb9)\]
+> -   MouseListener vs. MouseAdapter
+>     \[[YT](https://youtu.be/8GGUpSOFWjE)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-mouselistener-vs-mouseadapter/c7633620d72a1eee218d99995d5fd14d)\]
 >
 > </details>
 
@@ -141,8 +147,10 @@ Observer-Pattern in Swing-Komponenten:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Events können Sie im Tutorial ["Lesson: Writing Event
+> Listeners"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/events/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -162,36 +170,8 @@ Observer-Pattern in Swing-Komponenten:
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-Java-SE-Tutorial" class="csl-entry">
->
-> Oracle Corporation. 2024. „The Java Tutorials".
-> <https://docs.oracle.com/javase/tutorial/>.
->
-> </div>
->
-> <div id="ref-Ullenboom2021" class="csl-entry">
->
-> Ullenboom, C. 2021. *Java ist auch eine Insel*. 16. Aufl.
-> Rheinwerk-Verlag.
-> <https://openbook.rheinwerk-verlag.de/javainsel/index.html>.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e1520f5 2026-04-24 swing: fix titles<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> d78e242 2026-04-27 swing4: rework readings<br></sub></sup></p></blockquote>

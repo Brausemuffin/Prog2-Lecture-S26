@@ -1,4 +1,4 @@
-# Einführung in Graphics und Java 2D
+# Swing 6: Einführung in Graphics und Java 2D
 
 > [!IMPORTANT]
 >
@@ -38,11 +38,19 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Java2D](https://youtu.be/LDE_Kbc9w7k)
-> -   [Demo geometrische Objekte](https://youtu.be/vzBH0MjJ0rM)
-> -   [Demo Fonts](https://youtu.be/F-6fIGeGAcY)
-> -   [Demo Polygone](https://youtu.be/BLTZ3XhbvkY)
-> -   [Demo Bewegung und 2D-Spiel](https://youtu.be/wfVwSyTgm-w)
+> Vorlesung \[[YT](https://youtu.be/a07lUyJRX3g)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-6-einfhrung-in-graphics-und-java-2d/3caa2dad5870b4e08cf01ee9d20f05fc)\]
+>
+> Demos:
+>
+> -   Geometrische Objekte \[[YT](https://youtu.be/Cw2TZmIuI14)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-polygone/4934d8b7629f29f437ef5ba1524b2221)\]
+> -   Fonts \[[YT](https://youtu.be/z8pz3ZnYkFk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-fonts/8a3d5ac6b1bb55323ef4881ef3dea1cf)\]
+> -   Polygone \[[YT](https://youtu.be/2-Le4ONlt08)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-polygone/6f4b1e0e38dd3cbba925755102b49150)\]
+> -   Bewegung und 2D-Spiel \[[YT](https://youtu.be/Ke-I8q4taQI)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-java2d-bewegung-und-2d-spiel/dfdb1c3b7f8e8713bf97b53f48c03573)\]
 >
 > </details>
 
@@ -343,8 +351,9 @@ Weitere evtl. nützliche Methoden:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Java2D können Sie im Tutorial ["Trail: 2D Graphics"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/2d/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -366,36 +375,8 @@ Weitere evtl. nützliche Methoden:
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-Java-SE-Tutorial" class="csl-entry">
->
-> Oracle Corporation. 2024. „The Java Tutorials".
-> <https://docs.oracle.com/javase/tutorial/>.
->
-> </div>
->
-> <div id="ref-Ullenboom2021" class="csl-entry">
->
-> Ullenboom, C. 2021. *Java ist auch eine Insel*. 16. Aufl.
-> Rheinwerk-Verlag.
-> <https://openbook.rheinwerk-verlag.de/javainsel/index.html>.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 475baa7 2026-04-11 rename swing files<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 5e3da41 2026-04-27 swing6: rework readings<br></sub></sup></p></blockquote>

@@ -48,14 +48,21 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Lambda-Ausdrücke und funktionale
->     Interfaces](https://youtu.be/Wd8KG7xtp4c)
-> -   [Demo Anonyme innere Klasse](https://youtu.be/QEXpQwRYoYc)
-> -   [Demo Lambda-Ausdruck](https://youtu.be/2LJIxsVw4pM)
-> -   [Demo Funktionale Interfaces selbst
->     definiert](https://youtu.be/93O1oDL5_5c)
-> -   [Demo Vordefinierte funktionale Interfaces im
->     JDK](https://youtu.be/jzEw8IH8Mfc)
+> Vorlesung \[[YT](https://youtu.be/F1uv2bZgGOU)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-lambda-ausdrcke-und-funktionale-interfaces/017c7be527599311dd6763eacb2f0d9b)\]
+>
+> Demos:
+>
+> -   Anonyme innere Klassen \[[YT](https://youtu.be/5AGdWQxH6WQ)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-anonyme-innere-klassen/3db31de96e28d147703a16c55190249f)\]
+> -   Lambda-Ausdrücke \[[YT](https://youtu.be/X6FpoIzCxGQ)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-lambda-ausdrcke/16a8d9e2dd74e7aa34fd98f884773cbc)\]
+> -   Funktionale Interfaces selbst definiert
+>     \[[YT](https://youtu.be/gEmK8sDjBu0)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-funktionale-interfaces-selbst-definiert/9cf03bce9778161791bc04da6e55588d)\]
+> -   Vordefinierte funktionale Interfaces im JDK
+>     \[[YT](https://youtu.be/Ed6yck5Gvwk)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-vordefinierte-funktionale-interfaces-im-jdk/068208f0b3272fd18dbf092ff376bf76)\]
 >
 > </details>
 
@@ -308,7 +315,7 @@ Das in den obigen Beispielen eingesetzte Interface
 nur *eine* eigene abstrakte Methode `int compare(T o1, T o2);`.
 
 Im Package
-[java.util.function](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/function/package-summary.html)
+[java.util.function](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/package-summary.html)
 sind einige wichtige funktionale Interfaces bereits vordefiniert,
 beispielsweise `Predicate` (Test, ob eine Bedingung erfüllt ist) und
 `Function` (verarbeite einen Wert und liefere einen passenden
@@ -403,9 +410,11 @@ Lambda-Ausdruck stolpert:
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Urma u. a. ([2014, Kap. 3](#ref-Urma2014))
-> -   Ullenboom ([2021, Kap. 12](#ref-Ullenboom2021))
+> Lesen Sie zu diesem Thema auch in den Oracle-Tutorials ["Writing Your
+> First Lambda Expression"
+> (Oracle)](https://dev.java/learn/lambdas/first-lambdas/) und ["Using
+> Lambdas Expressions in Your Application"
+> (Oracle)](https://dev.java/learn/lambdas/functional-interfaces/) nach.
 >
 > </details>
 
@@ -520,44 +529,8 @@ Lambda-Ausdruck stolpert:
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-Java-SE-Tutorial" class="csl-entry">
->
-> Oracle Corporation. 2024. „The Java Tutorials".
-> <https://docs.oracle.com/javase/tutorial/>.
->
-> </div>
->
-> <div id="ref-Ullenboom2021" class="csl-entry">
->
-> Ullenboom, C. 2021. *Java ist auch eine Insel*. 16. Aufl.
-> Rheinwerk-Verlag.
-> <https://openbook.rheinwerk-verlag.de/javainsel/index.html>.
->
-> </div>
->
-> <div id="ref-Urma2014" class="csl-entry">
->
-> Urma, R.-G., M. Fusco, und A. Mycroft. 2014. *Java 8 in Action:
-> Lambdas, Streams, and Functional-Style Programming*. Manning
-> Publications.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 95a02cf 2025-08-09 markdown: switch to leaner yaml header (#1037)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> fa4c33d 2026-04-27 lambda: rework readings<br></sub></sup></p></blockquote>

@@ -30,11 +30,19 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Swing: Layout-Manager](https://youtu.be/An7tQMW1A3E)
-> -   [Demo BorderLayout](https://youtu.be/tifXSKXSUYw)
-> -   [Demo FlowLayout](https://youtu.be/tYTDhv6lwT8)
-> -   [Demo GridLayout](https://youtu.be/JyN_Wozg3ms)
-> -   [Demo GridBagLayout](https://youtu.be/95PG2alVTSo)
+> Vorlesung \[[YT](https://youtu.be/qpnTTP7FSm8)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-swing-3-layout-manager/0683986ffdeef59177cf546268505f15)\]
+>
+> Demos:
+>
+> -   BorderLayout \[[YT](https://youtu.be/a8K96BOw89c)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-borderlayout/0008c0637bf3bc562bd7e4b2e1cc626a)\]
+> -   FlowLayout \[[YT](https://youtu.be/8Nl6aRD9TpA)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-flowlayout/d75b9f29ca08f42a29991aca02dec89f)\]
+> -   GridLayout \[[YT](https://youtu.be/DYyjxb4kWMo)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-gridlayout/af5bf8e49bcbb37b78a027569e6f24d5)\]
+> -   GridBagLayout \[[YT](https://youtu.be/NDfO_OLrwxI)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-swing-gridbaglayout/adcb5b8aa539f9e4e1b7fa506a8f8495)\]
 >
 > </details>
 
@@ -148,7 +156,7 @@ bzw. `setVgap()` eingestellt werden.
 -   Zusätzlich `GridBagConstraints`: Verhalten bei Größenveränderungen
 
 | Constraint | Bedeutung |
-|:------------|:----------------------------------------------------------|
+|:--------------|:--------------------------------------------------------|
 | `gridx` | **Spalte** für Komponente (linke obere Ecke) |
 | `gridy` | **Zeile** für Komponente (linke obere Ecke) |
 | `gridwidth` | **Anzahl der Spalten** für Komponente |
@@ -210,8 +218,10 @@ wird der neue Platz unter den Slots gemäß ihren Gewichten aufgeteilt.
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
-> -   Ullenboom ([2021, Kap. 18](#ref-Ullenboom2021))
+> Zum Thema Swing Layouts und -manager können Sie im Tutorial ["Lesson:
+> Laying Out Components Within a Container"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/uiswing/layout/index.html)
+> nachlesen.
 >
 > </details>
 
@@ -281,36 +291,8 @@ wird der neue Platz unter den Slots gemäß ihren Gewichten aufgeteilt.
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-Java-SE-Tutorial" class="csl-entry">
->
-> Oracle Corporation. 2024. „The Java Tutorials".
-> <https://docs.oracle.com/javase/tutorial/>.
->
-> </div>
->
-> <div id="ref-Ullenboom2021" class="csl-entry">
->
-> Ullenboom, C. 2021. *Java ist auch eine Insel*. 16. Aufl.
-> Rheinwerk-Verlag.
-> <https://openbook.rheinwerk-verlag.de/javainsel/index.html>.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e1520f5 2026-04-24 swing: fix titles<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 66a8ed5 2026-04-27 swing3: rework readings<br></sub></sup></p></blockquote>
