@@ -366,6 +366,9 @@ schlecht als Bibliothek verwenden oder in andere Projekte integrieren.**
 > Nehmen Sie Ihr letztes Prog1-Projekt und überlegen Sie: Wie würden Sie
 > es in 3..4 Packages aufteilen?
 >
+> Bearbeiten Sie die [Package
+> Challenge](https://github.com/Programmiermethoden-CampusMinden/prog2_challenge_packages).
+>
 > </details>
 
 ------------------------------------------------------------------------
@@ -374,4 +377,4 @@ schlecht als Bibliothek verwenden oder in andere Projekte integrieren.**
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 0c87903 2026-04-21 packages: add new screencasts<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cc7ea96 2026-04-27 packages: add new library challenge<br></sub></sup></p></blockquote>

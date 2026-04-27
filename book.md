@@ -3407,6 +3407,9 @@ schlecht als Bibliothek verwenden oder in andere Projekte integrieren.**
 > Nehmen Sie Ihr letztes Prog1-Projekt und überlegen Sie: Wie würden Sie
 > es in 3..4 Packages aufteilen?
 >
+> Bearbeiten Sie die [Package
+> Challenge](https://github.com/Programmiermethoden-CampusMinden/prog2_challenge_packages).
+>
 > </details>
 
 <a id="id-c2fc86abf650579f63e535ec42726e2c66f4af6f"></a>
@@ -17234,6 +17237,8 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
 **Exceptions:**
 
+-   "*Three strikes...*": ([Fowler 2011](#ref-Fowler2011), p. 58)
+-   "*Refactoring*": ([Fowler 2011](#ref-Fowler2011), p. 53)
 -   ["356:
     Refactoring"](http://altlasten.lutz.donnerhacke.de/mitarb/lutz/usenet/Fachbegriffe.der.Informatik.html#356)
     by [Andreas Bogk](mailto:andreas@andreas.org) on Lutz Donnerhacke:
@@ -17242,10 +17247,8 @@ Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 -   ["A Note About Git Commit
     Messages"](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
     by [Tim Pope](https://tpo.pe/) on tbaggery.com
--   "*Three strikes...*": ([Fowler 2011](#ref-Fowler2011), p. 58)
--   "*Refactoring*": ([Fowler 2011](#ref-Fowler2011), p. 53)
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> e1520f5 2026-04-24 swing: fix titles<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> cc7ea96 2026-04-27 packages: add new library challenge<br></sub></sup></p></blockquote>
 
 [^1]: Anmerkung: Das obige Beispiel dient als Überblick gebräuchlicher
     terminaler Operationen, es ist nicht als lauffähiges Programm
