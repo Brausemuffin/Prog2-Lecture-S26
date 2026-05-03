@@ -35,12 +35,21 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL RegExp](https://youtu.be/K9R1Bwa73uI)
-> -   [Demo StringSplit](https://youtu.be/j_pTZBI6Z3M)
-> -   [Demo MatchFind](https://youtu.be/LYlPL1C_au8)
-> -   [Demo Quantifier](https://youtu.be/xkD9PhCjXyY)
-> -   [Demo Groups](https://youtu.be/ANLB2MdC_uY)
-> -   [Demo Backref](https://youtu.be/SRZyT3EAB94)
+> Vorlesung \[[YT](https://youtu.be/MH9d6uLQprs)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-regulre-ausdrcke/eb3b7479a0ba186e78737a18008d554d)\]
+>
+> Demos:
+>
+> -   StringSplit \[[YT](https://youtu.be/syVLbR4ftPo)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-regulre-ausdrcke-stringsplit/78188c9491ceec1d14ca63b84d3d5359)\]
+> -   MatchFind \[[YT](https://youtu.be/Pv1kUn024XM)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-regulre-ausdrcke-matchfind/20d9e901c5fce2244cd2dd4709705383)\]
+> -   Quantifier \[[YT](https://youtu.be/fEhsr5tpiP0)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-regulre-ausdrcke-quantifier/1c71fd6afe16450b88ecaaf3c14584b2)\]
+> -   Groups \[[YT](https://youtu.be/jZF1-sE6zoM)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-regulre-ausdrcke-groups/bbeaee3c800482c73b551c8dc8656665)\]
+> -   Backref \[[YT](https://youtu.be/5c5HU15MhRQ)\],
+>     \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-demo-regulre-ausdrcke-backreferences/488ca4700d062240b1210ef6522309cf)\]
 >
 > </details>
 
@@ -426,7 +435,11 @@ Lösung: `([A-Z][a-zA-Z]*)\s\1`
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Oracle Corporation ([2024](#ref-Java-SE-Tutorial))
+> Zum Thema Regular Expressions können Sie in den Tutorials ["Lesson:
+> Regular Expressions"
+> (Oracle)](https://docs.oracle.com/javase/tutorial/essential/regex/index.html)
+> und ["Regular Expressions" (Oracle)](https://dev.java/learn/regex/)
+> nachlesen.
 >
 > </details>
 
@@ -435,10 +448,10 @@ Lösung: `([A-Z][a-zA-Z]*)\s\1`
 > <details >
 > <summary><strong>✅ Lernziele</strong></summary>
 >
-> -   k1: Ich kenne die wichtigsten Methoden von java.util.regex.Pattern
->     und java.util.regex.Matcher
-> -   k2: Ich kann den Unterschied zwischen Matcher#find und
->     Matcher#matches erklären
+> -   k1: Ich kenne die wichtigsten Methoden von
+>     `java.util.regex.Pattern` und `java.util.regex.Matcher`
+> -   k2: Ich kann den Unterschied zwischen `Matcher#find` und
+>     `Matcher#matches` erklären
 > -   k2: Ich kann zwischen greedy und non-greedy Verhalten bei
 >     regulären Ausdrücken unterscheiden
 > -   k3: Ich kann einfache reguläre Ausdrücke bilden
@@ -480,28 +493,8 @@ Lösung: `([A-Z][a-zA-Z]*)\s\1`
 
 ------------------------------------------------------------------------
 
-> [!NOTE]
->
-> <details >
-> <summary><strong>👀 Quellen</strong></summary>
->
-> <div id="refs" class="references csl-bib-body hanging-indent">
->
-> <div id="ref-Java-SE-Tutorial" class="csl-entry">
->
-> Oracle Corporation. 2024. „The Java Tutorials".
-> <https://docs.oracle.com/javase/tutorial/>.
->
-> </div>
->
-> </div>
->
-> </details>
-
-------------------------------------------------------------------------
-
 <p align="center"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png"  /></p>
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 032f442 2026-04-01 reformat markdown sources<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> 495250c 2026-05-03 regex: rework all screencasts<br></sub></sup></p></blockquote>

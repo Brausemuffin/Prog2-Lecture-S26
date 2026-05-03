@@ -33,7 +33,8 @@
 > <details open>
 > <summary><strong>🎦 Videos</strong></summary>
 >
-> -   [VL Template-Method-Pattern](https://youtu.be/EE-n2T6AO-g)
+> Vorlesung \[[YT](https://youtu.be/3rdlr4n2Hsc)\],
+> \[[HSBI](https://www.hsbi.de/medienportal/video/pr2-template-method-pattern/0bb25b0a96c0d39d9f271e55687f37f3)\]
 >
 > </details>
 
@@ -244,8 +245,12 @@ Template-Method-Pattern: Verhaltensänderung durch Vererbungsbeziehungen
 > <details open>
 > <summary><strong>📖 Zum Nachlesen</strong></summary>
 >
-> -   Eilebrecht und Starke ([2013](#ref-Eilebrecht2013))
-> -   Gamma u. a. ([2011](#ref-Gamma2011))
+> Der
+> [Refactoring.Guru](https://refactoring.guru/design-patterns/template-method)
+> hat eine schöne Zusammenfassung des Template-Method-Patterns. Der
+> Verweis auf Gamma u. a. ([2011](#ref-Gamma2011)) der ["Gang of
+> Four"](https://en.wikipedia.org/wiki/Design_Patterns) darf natürlich
+> nicht fehlen.
 >
 > </details>
 
@@ -295,12 +300,6 @@ Template-Method-Pattern: Verhaltensänderung durch Vererbungsbeziehungen
 >
 > <div id="refs" class="references csl-bib-body hanging-indent">
 >
-> <div id="ref-Eilebrecht2013" class="csl-entry">
->
-> Eilebrecht, K., und G. Starke. 2013. *Patterns kompakt*. Springer.
->
-> </div>
->
 > <div id="ref-Gamma2011" class="csl-entry">
 >
 > Gamma, E., R. Helm, R. E. Johnson, und J. Vlissides. 2011. *Design
@@ -318,4 +317,4 @@ Template-Method-Pattern: Verhaltensänderung durch Vererbungsbeziehungen
 
 Unless otherwise noted, this work is licensed under CC BY-SA 4.0.
 
-<blockquote><p><sup><sub><strong>Last modified:</strong> 95a02cf 2025-08-09 markdown: switch to leaner yaml header (#1037)<br></sub></sup></p></blockquote>
+<blockquote><p><sup><sub><strong>Last modified:</strong> f9875ec 2026-05-03 template-method: rework all screencasts<br></sub></sup></p></blockquote>
